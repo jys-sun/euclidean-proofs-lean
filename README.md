@@ -4,7 +4,7 @@ A proof on paper can feel clear while still leaving a few steps unstated.
 Proving them with Lean needs us to make those steps explicit. These practice problems are a way
 to explore that difference with small, familiar coordinate geometry questions.
 
-Each practice page puts the mathematical argument next to the Lean code, with
+Each practice page puts the mathematical proof next to the Lean code, with
 a table explaining how they connect. 
 We can start with the math, take a guess at what the code is doing, and then ask Lean to check it. No need to
 know Lean already; basic algebra is enough to begin.
