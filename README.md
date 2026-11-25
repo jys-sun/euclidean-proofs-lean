@@ -1,17 +1,17 @@
 # Euclidean proofs with Lean 4
 
 A proof on paper can feel clear while still leaving a few steps unstated.
-Lean asks us to make those steps explicit. These practice problems are a way
+Proving them with Lean needs us to make those steps explicit. These practice problems are a way
 to explore that difference with small, familiar coordinate geometry questions.
 
 Each practice page puts the mathematical argument next to the Lean code, with
-a table explaining how they connect. You can start with the math, take a guess
-at what the code is doing, and then ask Lean to check it. There's no need to
+a table explaining how they connect. 
+We can start with the math, take a guess at what the code is doing, and then ask Lean to check it. No need to
 know Lean already; basic algebra is enough to begin.
 
 The points are pairs of real numbers, written `Point := ℝ × ℝ` in Lean.
-We work with **squared distance**—the sum of the squared coordinate
-differences—so we can focus on the argument without introducing square roots.
+We work with **squared distance** (the sum of the squared coordinate
+differences), so we can focus on the argument without introducing square roots.
 
 You can read the pages in `data/` and check the `.lean` files with `lake build`.
 If you'd like to see the calls and their results together, the single
