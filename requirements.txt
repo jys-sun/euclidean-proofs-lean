@@ -1,0 +1,6 @@
+# Optional notebooks only; reading practice problems and checking Lean proofs needs no Python.
+# Python 3.10+; Lean / elan / Lake / mathlib are installed separately (README).
+jupyterlab>=4.3,<5
+ipykernel>=6.29,<7
+nbformat>=5.10,<6
+nbclient>=0.10,<0.11
