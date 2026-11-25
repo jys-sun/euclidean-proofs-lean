@@ -258,4 +258,11 @@ requirements.txt            Optional Python notebook dependencies
 - **A proof fails after an edit:** inspect the goal and hypotheses in the
   diagnostics. Undo your experiment or complete the missing argument.
 
-For more practice, see [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
+## Learning resources
+
+- [Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/)
+  walks through how proofs work in Lean, including propositions, equality,
+  quantifiers, and tactics. It's a useful companion when you want to understand
+  why a proof step works, beyond getting the current practice problem to pass.
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
+  offers more mathematical examples to work through with Lean and mathlib.
